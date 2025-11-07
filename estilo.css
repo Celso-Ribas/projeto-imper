@@ -1,0 +1,238 @@
+@charset "UTF8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #4FC3F7; /* body - main*/
+    --cor02: #3EB4E6; /* body - main*/
+    --cor03: rgb(209, 218, 215); /* header*/
+    --cor04: rgb(41, 60, 77);/* Titulos e sub-titulos*/
+    --cor05: #bce6f9;/* Video */
+    --cor06: #50c878;/* botoes*/
+
+    --fonte-padrao: Georgia, 'Times New Roman', Times, serif;
+    --fonte-destaque: "Oswald", sans-serif;
+    --font-Sub-destaque: "Roboto Condensed", sans-serif;
+}
+
+body {
+    background-color: #4FC3F7; /*   cor mais suave #4FC3F7  ,  #3EB4E6*/
+}
+
+header {
+    background-color: var(--cor03);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.724)
+
+}
+
+header p {
+  color: var(--cor04);
+}
+
+
+header img {
+    padding-top: 25px;
+    max-width: 200px;
+    height: auto;
+
+
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 15px;
+  align-items: center;
+}
+
+.contact-container a {
+  text-decoration: underline;
+  color: black
+  transition blue 0.3s ease;
+}
+
+.contact-container a:hover {
+  color:blue;
+   
+}
+
+.contact-container .icon {
+  
+  width: 20px;    
+  height: 20px;
+  margin-right: 6px; 
+  
+}
+
+header p {
+    padding-top: 10px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.4em;
+    text-align: center;
+
+}
+main {
+   background-color:var(--cor02);
+    padding: 0px 10px 5px 10px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+/* Serviços */
+.servicos {
+  background-color: var(--cor02);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.servicos h2 {
+  color: var(--cor04);
+  font-size: 2.2rem;
+  text-decoration: overline;
+  margin-bottom: 30px;
+}
+
+.servicos-grid {
+  display: grid;
+  grid-template-columns: 340px;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.servicos-grid img {
+  
+  width: 100%;
+  border-radius: 10px;
+
+  
+  
+  
+}
+
+/* Vídeo e botão */
+.orcamento {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  
+  padding-top: 10px; 
+  justify-content: center;
+  align-items: center;
+  
+}
+.orcamento h1 {
+  text-align: center;
+  padding: 15px;
+  color: var(--cor04);
+  text-decoration: overline;
+  
+}
+
+iframe {
+  background: var(--cor04);
+  width: 350px;
+  height: 315px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.btn {
+  background: var(--cor06);
+  border: 2px solid white;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: var(--cor06);
+}
+
+
+.hero {
+  background-color: var(--cor03);
+  padding: 20px 0;
+}
+
+.hero-content {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hero-text h2 {
+  font-family:var(--fonte-destaque);
+  font-size: 2.2rem;
+  color: var(--cor04);
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+
+.hero-text p {
+  font-family:var(--fonte-padrao);
+  font-size: 1.2em;
+  color:var(--cor04);
+  padding: 1px;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.hero-img img {
+  padding-bottom: 25px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.beneficios {
+  background:var(--cor03);
+  padding: 40px 0;
+}
+
+.beneficios-content {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  gap: 40px;
+}
+
+.beneficio img {
+  
+  width: 40px;
+  margin-bottom: 10px;
+}
+
