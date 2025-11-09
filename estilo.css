@@ -135,7 +135,6 @@ main {
   justify-content: center;
   gap: 30px;
   margin-bottom: 40px;
-  border: 1px solid black;
   padding-top: 10px; 
   justify-content: center;
   align-items: center;
@@ -215,10 +214,19 @@ iframe {
   text-decoration: overline;
 }
 
-.hero-img img {
-  padding-bottom: 25px;
+.hero-img   {
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 400px;
   border-radius: 10px;
+  
+}
+
+.hero-img img  {
+  width: 395px;
+  height: auto;
+  border-radius: 10px;
+  
 }
 
 .beneficios {
