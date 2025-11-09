@@ -135,7 +135,7 @@ main {
   justify-content: center;
   gap: 30px;
   margin-bottom: 40px;
-  
+  border: 1px solid black;
   padding-top: 10px; 
   justify-content: center;
   align-items: center;
@@ -157,6 +157,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .play-icon {
@@ -191,6 +192,8 @@ iframe {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 40px;
+  
+  
 }
 
 .hero-text h2 {
