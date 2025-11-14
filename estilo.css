@@ -147,15 +147,25 @@ main {
   text-decoration: overline;
   
 }
+.orcamento p {
+  font-family: var(--fonte-padrao);
+  color: var(--cor04);
+  text-align: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 iframe {
   background: var(--cor04);
   width: 350px;
   height: 315px;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  
 
 }
 
@@ -182,6 +192,7 @@ iframe {
 .hero {
   background-color: var(--cor03);
   padding: 20px 0;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .hero-content {
@@ -217,13 +228,13 @@ iframe {
 .hero-img   {
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 400px;
+  max-width: 400px;
   border-radius: 10px;
   
 }
 
 .hero-img img  {
-  width: 395px;
+  max-width: 395px;
   height: auto;
   border-radius: 10px;
   
