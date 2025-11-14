@@ -3,6 +3,8 @@
 * {
     margin: 0px;
     padding: 0px;
+
+    /*  sugestão para linear gradiente ( #00d4ff ,#0077ff */
 }
 
 :root {
@@ -144,13 +146,16 @@ main {
   text-align: center;
   padding: 15px;
   color: var(--cor04);
+  font-size: 2.1em;
   text-decoration: overline;
+  
   
 }
 .orcamento p {
   font-family: var(--fonte-padrao);
   color: var(--cor04);
   text-align: center;
+  font-size: 1.2em;
 }
 
 .video {
@@ -211,16 +216,21 @@ iframe {
   font-size: 2.2rem;
   color: var(--cor04);
   margin-bottom: 10px;
+  padding-bottom: 15px;
   font-weight: 700;
   text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #0077ff, #00d4ff);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   
-}
+  }
 
 .hero-text p {
   font-family:var(--fonte-padrao);
   font-size: 1.2em;
   color:var(--cor04);
   padding: 1px;
+  padding-top: 13px;
   text-align: center;
   text-decoration: overline;
 }
@@ -255,6 +265,8 @@ iframe {
   text-align: center;
   gap: 40px;
 }
+
+
 
 .beneficio img {
   
