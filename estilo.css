@@ -229,12 +229,16 @@ iframe {
   padding-top: 15px;
   padding-bottom: 15px;
   max-width: 400px;
-  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  
   
 }
 
 .hero-img img  {
-  max-width: 395px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
   
